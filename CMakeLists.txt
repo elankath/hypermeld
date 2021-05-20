@@ -31,7 +31,7 @@ include(${CPM_DOWNLOAD_LOCATION})
 ## END Download CPM.cmake
 
 # BEGIN DEPS
-CPMAddPackage("gl:eidheim/tiny-process-library#@2.0.4")
+CPMAddPackage("gl:eidheim/tiny-process-library@2.0.4")
 # END DEPS
 
 if (MSVC)
